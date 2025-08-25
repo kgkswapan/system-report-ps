@@ -39,7 +39,7 @@ Author: You
 
 param(
     [string]$path,
-    [switch]$Open = $true, # default to open
+    [switch]$Open,
     [switch]$Version
 )
 
